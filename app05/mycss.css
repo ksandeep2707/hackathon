@@ -1,0 +1,81 @@
+.img{
+
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+body
+{
+   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+
+}
+
+
+
+.pos{
+text-align:center;
+padding-top:15%;
+}
+
+
+
+.but{
+border:2px solid white;
+border-radius:30px;
+background-color:rgba(136,136,136,0.9);
+  transition-duration: 0.4s;
+ font-size: 20px;
+color:white;
+font-weight:500;
+padding: 12px 28px;
+  text-align: center;
+}
+.but:hover{
+background-color:white;
+border:2px solid black;
+height:60px;
+width:200px;
+
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+
+
+.b{
+font-weight:700;
+font-color:rgba(136,136,136,1);
+}
+/*glyphicon glyphicon-home
+<span class="glyphicon glyphicon-home" aria-hidden="true"></span>*/
+
+#a{
+color:white;
+font-size: 20px;
+}
+
+#b{
+font-weight:600;
+color:white;
+}
+hr{
+border: 0.1px solid white;
+width:40%;
+}
+
+
+
+html
+{
+ min-height:100%;
+  
+  /*box-shadow:inset 0 0 0 20000px rgba(136,136,136,0.5);*/
+}
